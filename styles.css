@@ -1,0 +1,176 @@
+#title{
+    background-color: #950101;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    z-index: 1; 
+    position: relative;  
+}
+
+#pricing{
+    padding: 5% 6%;
+    text-align: center;
+    
+}
+
+#testimonials{
+    /* padding: 7% 15%; */
+    background-color:  #950101;
+    text-align: center;
+}
+
+#cta{
+    background-color: #950101;
+    text-align: center;
+    padding: 10%;
+}
+
+#footer{
+    padding: 7%;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+#press{
+    background-color: #950101;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+    
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: rgb(8, 8, 8);
+}
+
+
+h3{
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+}
+
+
+.conatiner-fluid{
+    padding: 3% 15% 8% 15%;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom: 8%;
+}
+
+
+.nav-item{
+    padding: 18px;   
+    font-size: 1.3rem;
+    
+}
+
+
+.title-image{
+    
+    transform: rotate(25deg);
+    position: absolute;
+    right: 23%;
+}
+
+.btn{
+    margin: 5% 3% 5% 0;
+    
+}
+
+.part{
+    text-align: center;
+    padding: 10%;
+}
+
+.details{
+    color: #8f8f8f;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 3rem;
+}
+
+.icon:hover{
+    color: #950101;
+}
+
+.testimonial-image{
+    border-radius: 100%;
+    width: 15%;
+    padding: 20px;
+}
+
+
+.testimonial-text{
+    color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.press-box{
+    margin-bottom: 5%;
+    width: 15%;
+   
+}
+
+.pricing-box{
+    padding-top: 2%;
+}
+
+
+.cta-text{
+    color: white;
+    font-size: 3.5rem;
+}
+
+.cta-p{
+    color: #8f8f8f;
+    font-weight: bolder;
+}
+
+.copyright-icon{
+    padding: 1%;
+}
+
+@media (max-width: 1028px){
+
+    .title-image{
+        transform: rotate(0deg);
+        position: static;
+
+    }
+
+    #title{
+        text-align: center;
+    }
+
+    #pricing{
+        text-align: center;
+    }
+
+    .card{
+        left: 10%;
+        margin: 3%;
+    }
+}
